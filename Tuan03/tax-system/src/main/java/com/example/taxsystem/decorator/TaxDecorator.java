@@ -1,0 +1,9 @@
+package com.example.taxsystem.decorator;
+
+public abstract class TaxDecorator implements TaxComponent {
+    protected TaxComponent component;
+
+    public TaxDecorator(TaxComponent component) {
+        this.component = component;
+    }
+}
