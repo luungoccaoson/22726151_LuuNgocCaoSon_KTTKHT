@@ -6,8 +6,8 @@ const Booking = sequelize.define("Booking", {
     type: DataTypes.STRING,
     primaryKey: true
   },
-  userId: DataTypes.STRING,
-  tourId: DataTypes.STRING,
+  user_id: DataTypes.STRING,
+  tour_id: DataTypes.STRING,
   status: DataTypes.STRING
 });
 
